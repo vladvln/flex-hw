@@ -1,0 +1,83 @@
+ 
+* {
+    box-sizing: border-box; /* При добавлении к колонкам border или padding*/
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+ }
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+    height: 100px;
+    min-width: 150px;
+}
+
+aside nav {
+    display: flex;
+}
+
+aside nav a {
+    padding: 40px;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.bg-red {
+    background: #c62828;
+}
+
+.bg-blue {
+    background: #283593;
+}
+
+.bg-green {
+    background: #2E7D32;
+}
+
+.bg-yellow {
+    background: #FFEB3B;
+}
+
+.bg-orange {
+    background: #D84315;
+}
+
+.main-block {
+    position: relative;
+    flex: 1 0 auto;
+}
+
+footer {
+    background: #C6FF00;
+    flex: 0 0 auto;
+    text-align: center;
+}
+
+.padding {
+    padding: 2%;
+    border: 1px solid #000;
+    text-align: center;
+}
+
+aside {
+	display: flex;
+	flex-direction: column;
+}
+
+aside a {
+ 	flex-grow: 1;
+	text-align: center;
+}
