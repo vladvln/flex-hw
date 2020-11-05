@@ -1,11 +1,3 @@
- 
-* {
-    box-sizing: border-box; /* При добавлении к колонкам border или padding*/
-}
-
-html {
-    height: 100%;
-}
 
 body {
     margin: 0;
@@ -20,9 +12,8 @@ a {
 }
 
 img {
-    width: 100%;
-    height: 100px;
-    min-width: 150px;
+    max-width: 50%;
+    height: 150px;
 }
 
 aside nav {
@@ -80,4 +71,12 @@ aside {
 aside a {
  	flex-grow: 1;
 	text-align: center;
+}
+
+.content-1 {
+    text-align: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid #000;
 }
